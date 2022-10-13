@@ -1,4 +1,4 @@
-{% set version = '0.1.0' %}
+{% set version = "0.1.0" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -14,8 +14,8 @@ source:
   sha256: 72742a73f929b47a5edb24126c54be486ecf40b9bbae4310002f3a1e1980b555
 
 build:
-  merge_build_host: True  # [win]
-  number: 0
+  merge_build_host: true  # [win]
+  number: 1
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -39,15 +39,9 @@ test:
 about:
   home: https://github.com/paulhendricks/titanic
   license: CC0-1.0
-  summary: This data set provides information on the fate of passengers on the fatal maiden voyage
-    of the ocean liner "Titanic", summarized according to economic status (class), sex,
-    age and survival. Whereas the base R Titanic data found by calling data("Titanic")
-    is an array resulting from cross-tabulating 2201 observations, these data sets are
-    the individual non-aggregated observations and formatted in a machine learning context
-    with a training sample, a testing sample, and two additional data sets that can
-    be used for deeper machine learning analysis. These data sets are also the data
-    sets downloaded from the Kaggle competition and thus lowers the barrier to entry
-    for users new to R or machine learing.
+  summary: This data set provides information on the fate of passengers on the fatal maiden voyage of the ocean liner "Titanic", summarized according to economic status (class), sex, age and survival. Whereas the base R Titanic data found by calling data("Titanic") is an array resulting from cross-tabulating 2201 observations,
+    these data sets are the individual non-aggregated observations and formatted in a machine learning context with a training sample, a testing sample, and two additional data sets that can be used for deeper machine learning analysis. These data sets are also the data sets downloaded from the Kaggle competition and thus
+    lowers the barrier to entry for users new to R or machine learing.
 
 extra:
   recipe-maintainers:
