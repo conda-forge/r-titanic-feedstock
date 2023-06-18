@@ -1,11 +1,11 @@
-About r-titanic
-===============
+About r-titanic-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-titanic-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/paulhendricks/titanic
 
 Package license: CC0-1.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-titanic-feedstock/blob/main/LICENSE.txt)
 
 Summary: This data set provides information on the fate of passengers on the fatal maiden voyage of the ocean liner "Titanic", summarized according to economic status (class), sex, age and survival. Whereas the base R Titanic data found by calling data("Titanic") is an array resulting from cross-tabulating 2201 observations, these data sets are the individual non-aggregated observations and formatted in a machine learning context with a training sample, a testing sample, and two additional data sets that can be used for deeper machine learning analysis. These data sets are also the data sets downloaded from the Kaggle competition and thus lowers the barrier to entry for users new to R or machine learing.
 
